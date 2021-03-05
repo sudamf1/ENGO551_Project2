@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+      <head>
+
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+            <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+            integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+            crossorigin=""/>
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel = "stylesheet" href = "stylesheet.css">
+
+      </head>
+      <body>
+
+<div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="Search for a date range">
+      <button type="submit" class="searchButton">
+        <input type="text" name="daterange" value="Pick a date range" />
+        <hr>
+        <p>Pick a single date: </p>
+        <input type="text" name="single_date" value="03/08/2020" />
+     </button>
+   </div>
+</div>
+        <script src = "mapbase.js"></script>
+        <div id="mapid" style="width: 1900px; height: 600px;"></div>
+        <script type = "text/javascript" src ="mapbase.js"></script>
+        <script type = "text/javascript" src ="c2es-76ed-geojson.js"></script>
+
+
+
+
+      </body>
+
+
+
+
+</html>
